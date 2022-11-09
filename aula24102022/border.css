@@ -1,0 +1,21 @@
+body {
+    background-color:tomato;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    top: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.lista-ola {
+    border: 3px solid blue;
+    display: flex;
+    align-items: center;
+    min-height: px;
+    justify-content: center;
+    flex-wrap: wrap;
+}

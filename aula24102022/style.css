@@ -1,0 +1,111 @@
+.cadastro3 {
+    color:blue;
+    font-size:48px;
+    border:3px solid orange;
+    border-radius: 10em;
+}
+
+#cadastro4 {
+    color:red;
+    font-size:48px;
+    border:3px solid black;
+    border-radius: 10em;
+}
+
+
+
+input[type="text"]{
+    background-color: antiquewhite;
+}
+
+
+input[type="text"]:hover {
+    background-color: aquamarine;
+}
+
+h1:hover {
+    background-color: aquamarine;
+    color:blue;
+    transition: all .4s ease-in-out;
+}
+
+
+/*next*/
+
+
+.teste {
+    display: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+form input {
+    margin-top: 10px;
+}
+
+
+form label {
+    margin-top: 10px;
+}
+
+
+.botao-formulario { 
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+
+.botao-formulario input {
+    max-height: 40px;
+}
+
+
+/*fessor*/
+
+
+.botao-formulario input[type="reset"] {
+    max-height: 100px;
+    background-color: tomato;
+    padding: 10px;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.botao-formulario input[type="submit"] {
+    max-height: 100px;
+    background-color: rgb(4, 131, 74);
+    padding: 10px;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.botao-formulario input:hover {
+    cursor: pointer;
+    color: black;
+    transition: all .4s ease-in-out;
+}
+
+
+.botao-formulario input[type="reset"]:hover {
+    background-color: red;
+    color: white;
+}
+
+
+.botao-formulario input[type="submit"]:hover {
+    background-color: rgb(3, 97, 3);
+    color: white;
+}

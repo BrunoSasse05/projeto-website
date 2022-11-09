@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 06</title>
+</head>
+<script>
+    function mudaImagem(nomeImagem) {
+            console.log("imagem => " + nomeImagem);
+            document.querySelector("#imagemMaior").src = "images/" + nomeImagem + ".jpg";
+        }
+</script>
+
+<body>
+    <div>
+        <div class="miniaturas">
+            <img onclick="mudaImagem('crianca')" src="images/crianca.jpg" alt="" width="100" height="100">
+
+            <img onclick="mudaImagem('adulto')" src="images/adulto.jpg" alt="" width="100" height="100">
+
+            <img onclick="mudaImagem('trabalho')" src="images/trabalho.jpg" alt="" width="100" height="100">
+        </div>
+        <div class="tamanho-maior">
+            <img id="imagemMaior" src="images/trabalho.jpg" alt="" width="308" height="200">
+        </div>
+    </div>
+</body>
+
+</html>
